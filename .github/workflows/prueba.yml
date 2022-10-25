@@ -1,7 +1,9 @@
-name: Hola Mundo on:  
+name: Hola Mundo 
+on:  
   push: 
     branches: 
-    - masterjobs:  
+    - master
+jobs:  
   hola_mundo:    
     name: Hola mundo con github actions  
     runs-on: ubuntu-latest      
