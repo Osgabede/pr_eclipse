@@ -1,0 +1,10 @@
+name: Hola Mundo on:  
+  push: 
+    branches: 
+    - masterjobs:  
+  hola_mundo:    
+    name: Hola mundo con github actions  
+    runs-on: ubuntu-latest      
+    steps:
+    - uses: actions/checkout@v1
+    - run: echo "Hola"
